@@ -1,0 +1,74 @@
+# 🚘 Garage Management System (GMS)
+
+A full-stack web application built to manage and streamline the operations of a vehicle service center or garage. GMS helps in handling customer details, vehicle information, job cards, billing (with GST), service history, user roles, and automated email reminders for upcoming services and offers.
+
+---
+
+## 🔧 Features
+
+1. **Authentication & Role Management**
+   - Secure login/register using JWT
+   - Roles: Admin, Receptionist, Service Staff
+   - Role-based access control
+
+2. **User Management**
+   - Add/edit/delete users
+   - Assign roles and manage account status
+
+3. **Customer & Vehicle Management**
+   - Manage customer profiles and assign multiple vehicles
+   - Store vehicle details (brand, model, fuel type, insurance expiry, etc.)
+
+4. **Job Card Management**
+   - Create and manage job cards for each service
+   - Track service type, issues, estimated delivery, and status
+
+5. **Service History**
+   - Maintain full service logs for each vehicle
+   - View history by customer or vehicle
+
+6. **Billing & Invoice Generation**
+   - Generate GST-compliant invoices
+   - Itemize parts and service costs
+   - Track pending and completed payments
+
+7. **Billing History**
+   - View all invoices with job card references
+   - Filter by customer, date, or payment status
+
+8. **Email Notifications**
+   - Automated service reminders
+   - Promotional offers based on service history
+
+9. **Reports & Dashboard**
+   - Revenue tracking, job stats, customer visits
+   - Visual breakdown for performance metrics
+
+10. **Search, Filter & Pagination**
+    - Smart search and filtering for all modules
+    - Smooth pagination for large datasets
+
+11. **Responsive UI**
+    - Optimized for desktop, tablet, and mobile use
+    - Built with modern UI components
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer      | Technology                      |
+|------------|----------------------------------|
+| Frontend   | React, TypeScript, TailwindCSS, ShadCN UI |
+| Backend    | Node.js, Express.js              |
+| Database   | MongoDB + Mongoose               |
+| Auth       | JWT, bcrypt                      |
+| Email      | Nodemailer or SendGrid (for automation)
+
+---
+
+## 🚀 Setup Instructions
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/garage-management-system.git
+cd garage-management-system
