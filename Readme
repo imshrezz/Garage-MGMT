@@ -62,13 +62,4 @@ A full-stack web application built to manage and streamline the operations of a 
 | Backend    | Node.js, Express.js              |
 | Database   | MongoDB + Mongoose               |
 | Auth       | JWT, bcrypt                      |
-| Email      | Nodemailer or SendGrid (for automation)
-
----
-
-## 🚀 Setup Instructions
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/garage-management-system.git
-cd garage-management-system
+| Email      | Nodemailer (for automation)
